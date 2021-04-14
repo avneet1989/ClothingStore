@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29568" started-at="2021-02-08T00:24:42Z" finished-at="2021-02-08T00:25:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29568" started-at="2021-02-08T00:24:42Z" finished-at="2021-02-08T00:25:11Z">
+      <class name="Test.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.HomePageTest@1b083826]" name="setup" is-config="true" duration-ms="18158" started-at="2021-02-07T19:24:42Z" finished-at="2021-02-07T19:25:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AddToCartTest()[pri:0, instance:Test.HomePageTest@1b083826]" name="AddToCartTest" duration-ms="9812" started-at="2021-02-07T19:25:00Z" finished-at="2021-02-07T19:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartTest -->
+        <test-method status="PASS" signature="SignOut()[pri:0, instance:Test.HomePageTest@1b083826]" name="SignOut" is-config="true" duration-ms="1589" started-at="2021-02-07T19:25:10Z" finished-at="2021-02-07T19:25:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOut -->
+      </class> <!-- Test.HomePageTest -->
+      <class name="Test.CreateAccountTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.CreateAccountTest@3bbc39f8]" name="setup" is-config="true" duration-ms="8565" started-at="2021-02-07T19:24:42Z" finished-at="2021-02-07T19:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SignUpTest()[pri:0, instance:Test.CreateAccountTest@3bbc39f8]" name="SignUpTest" duration-ms="13992" started-at="2021-02-07T19:24:50Z" finished-at="2021-02-07T19:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpTest -->
+        <test-method status="PASS" signature="SignOut()[pri:0, instance:Test.CreateAccountTest@3bbc39f8]" name="SignOut" is-config="true" duration-ms="126" started-at="2021-02-07T19:25:04Z" finished-at="2021-02-07T19:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOut -->
+      </class> <!-- Test.CreateAccountTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
